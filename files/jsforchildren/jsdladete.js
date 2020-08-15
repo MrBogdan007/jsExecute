@@ -541,3 +541,44 @@
 // circle(100, 120, 2,true);
 // circle(100, 145, 2,true);
 // circle(100, 133, 20);
+
+
+//SNOWMAN X2
+// var canvas = document.getElementById("canvas");
+//         var ctx = canvas.getContext("2d");
+
+// var circle = function (x, y, radius,fillCircle) {
+//  ctx.beginPath();
+//  ctx.arc(x, y, radius, 0, Math.PI * 2, false);
+//  ctx.stroke();
+// if (fillCircle === true){
+    
+//     ctx.fill();
+// }
+// else{
+//     ctx.stroke();
+// }
+
+
+
+// };
+
+
+// function drawSnowman(x,y) {
+//     ctx.fillStyle = "Black";
+//       ctx.lineWidth = 4;
+
+//       circle(x + 50, y + 110, 40, false);
+//       circle(x + 50, y + 40, 30, false);
+//       circle(x + 40, y + 35, 5, true);
+//       circle(x + 60, y + 35, 5, true);
+
+//       circle(x + 50, y + 90, 5, true);
+//       circle(x + 50, y + 110, 5, true);
+//       circle(x + 50, y + 130, 5, true);
+
+//       ctx.fillStyle = "Orange";
+//       circle(x + 50, y + 45, 5, true);
+// }
+// drawSnowman(0,0);
+// drawSnowman(100, 20);

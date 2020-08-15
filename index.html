@@ -6,83 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
+ 
 <body>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
 <canvas id="canvas" width="200" height= "200"></canvas>
+
 <script>
-    
-// const num = prompt('Введите число', 55);
-// const newArr = [];
-// function colonOdd (num) {
-//     var resultString ="";
+  
 
-//     let str = num.split("");
-//     console.log(str);
-//     let result = [str[0]];
-//     console.log(result);
-// for (let i = 0; i < str.length; i++) { 
-//     if (str[i] % 2 === 0 && str[i+1] % 2 ){
-
-//         result.push(':' , str[i]);
-       
-//     }
-//     else  {
-//         result.push( str[i]);
-       
-       
-//     }
-
-// }
-
-// console.log(result);
-// }
-
-//    document.writeln(colonOdd(num));
-
-var canvas = document.getElementById("canvas");
-        var ctx = canvas.getContext("2d");
-
-var circle = function (x, y, radius,fillCircle) {
- ctx.beginPath();
- ctx.arc(x, y, radius, 0, Math.PI * 2, false);
- ctx.stroke();
-if (fillCircle === true){
-    
-    ctx.fill();
-}
-else{
-    ctx.stroke();
-}
-
-
-
-};
-ctx.lineWidth = 2;
-
-circle(100, 98, 15);
-circle(96,96,2, true);
-circle(106,96,2, true);
-ctx.fillStyle = "Orange";
-ctx.strokeStyle = "Orange";
-circle(101,100,2, true);
-ctx.strokeStyle = "Black";
-ctx.fillStyle = "Black";
-circle(100, 133, 2,true);
-circle(100, 120, 2,true);
-circle(100, 145, 2,true);
-circle(100, 133, 20);
-// ctx.strokeStyle = "Yellow";
-// circle(100, 100, 30);
-// ctx.strokeStyle = "Green";
-// circle(100, 100, 40);
-// ctx.strokeStyle = "Blue";
-// circle(100, 100, 50);
-// ctx.strokeStyle = "Purple";
-// circle(100, 100, 60);
-function drawSnowman(x,y) {
-
-}
-        </script>  
+            
+</script>  
    
   
   
