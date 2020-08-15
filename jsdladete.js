@@ -455,15 +455,14 @@
     // tesla.moveRight(Math.random() * 5);
     //  }, 30);
 
-
+//RECTANGULARS
 //     <script>
 //         var somestring = "abc";
         
 //         var mystring = somestring.replace("abc","cba");
 //         console.log(mystring);
         
-//         var canvas = document.getElementById("canvas");
-//         var ctx = canvas.getContext("2d");
+
        
 //         ctx.fillRect(25,0,50,50);
 //         ctx.fillRect(45,50,8,20);
@@ -473,6 +472,9 @@
 //         ctx.fillRect(22,128,10,40);  
 
 // </script>    
+
+
+//LINES
 // ctx.strokeRect(0,0,30,30)
 // ctx.beginPath();
 // ctx.moveTo(15,30);
@@ -489,8 +491,11 @@
 // ctx.lineTo(35,90);
 // ctx.stroke();
 
-// ctx.fillStyle = "Blue";
 
+
+
+// CIRCLES
+// ctx.fillStyle = "Blue";
 // ctx.lineWidth = 2;
 // ctx.strokeStyle = "Green";
 // ctx.beginPath();
@@ -502,3 +507,37 @@
 // ctx.arc(150, 50, 20, 0, Math.PI * 2, false);
 // ctx.stroke();
 
+//SNOWMAN
+
+// var canvas = document.getElementById("canvas");
+//         var ctx = canvas.getContext("2d");
+
+// var circle = function (x, y, radius,fillCircle) {
+//  ctx.beginPath();
+//  ctx.arc(x, y, radius, 0, Math.PI * 2, false);
+//  ctx.stroke();
+// if (fillCircle === true){
+    
+//     ctx.fill();
+// }
+// else{
+//     ctx.stroke();
+// }
+
+
+
+// };
+// ctx.lineWidth = 2;
+
+// circle(100, 98, 15);
+// circle(96,96,2, true);
+// circle(106,96,2, true);
+// ctx.fillStyle = "Orange";
+// ctx.strokeStyle = "Orange";
+// circle(101,100,2, true);
+// ctx.strokeStyle = "Black";
+// ctx.fillStyle = "Black";
+// circle(100, 133, 2,true);
+// circle(100, 120, 2,true);
+// circle(100, 145, 2,true);
+// circle(100, 133, 20);
