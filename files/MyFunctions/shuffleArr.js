@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Canvas</title>
-</head>
-
-<body>
-    <canvas id="canvas" width="200" height="200"></canvas>
-
-    <script >
 function shuffle(arr) {
     for (var i = arr.length - 1; i >= 0; i--) {
         var j = Math.floor(Math.random() * (i + 1));
@@ -20,7 +10,3 @@ function shuffle(arr) {
 var array = [0,1,2,3,4,5,6,7,8,9];
 
 document.writeln(shuffle(array));
-
-    </script>
-</body>
-</html>
