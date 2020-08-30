@@ -1,4 +1,4 @@
- 'use strict';
+'use strict';
 
 // function showThis(a,b) {
 //     console.log(this);
