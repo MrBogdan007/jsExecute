@@ -42,10 +42,7 @@ const obj = {
   cat: 'animal'
 };
 
-// const newArr = Object.entries(obj)
-// .filter(item => item[1] === 'person')
-// .map(item => item[0]);
-
-for( let item in obj){
-  console.log(item) ;
-}
+const newArr = Object.entries(obj)
+.filter(item => item[1] === 'person')
+.map(item => item[0]);
+console.log(newArr);
